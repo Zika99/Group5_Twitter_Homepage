@@ -6,6 +6,8 @@
 body{
     background: black;
     color: #eee;
+    font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Helvetica, Arial, sans-serif;
 }
 .layout{
   display: grid;
@@ -132,10 +134,13 @@ opacity: 0.4;
     border-radius: 100px;
   }
   button {
-    padding: 8px;
-    border-radius: 30px;
+    /* padding: 0 3px 0 3px; */
+    border-radius: 20px;
     font-weight: bolder;
-    width: 80px;
+    width: 150px;
+  }
+  footer{
+    margin: 0 10px 70px 0;
   }
   
   
