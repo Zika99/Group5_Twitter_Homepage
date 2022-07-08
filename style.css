@@ -95,3 +95,47 @@ opacity: 0.4;
 .footer a:hover{
     text-decoration: underline;
 }
+/* Winnies CSS */
+.third {
+    background-color: rgb(22, 24, 28);
+    border-radius: 1em;
+    padding: 15px;
+    margin: 0 20px 0 0;
+  }
+  .sixth a {
+    color: rgb(91, 95, 100);
+  }
+  .follow1,
+  .follow2,
+  .follow3 {
+    padding: 1em;
+    display: flex;
+  }
+  .links1, .links2, .links3{
+    display: block;
+  }
+  .msgs {
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 10px 15px 15px 15px;
+    border: 1px solid rgb(91, 95, 100);
+    box-shadow: 0  0 2px 2px rgb(91, 95, 100);
+    width: 300px;
+    position: fixed;
+    right: 20px;
+    bottom: 0px;
+    border-radius: 20px 20px 0 0;
+  }
+  img {
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+  }
+  button {
+    padding: 8px;
+    border-radius: 30px;
+    font-weight: bolder;
+    width: 80px;
+  }
+  
+  
