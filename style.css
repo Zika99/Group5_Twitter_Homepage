@@ -4,22 +4,35 @@
      box-sizing: border-box; 
 } 
 body{
-    background: black;
+    background: #000000;
     color: #eee;
+    font-size:15px;
+    line-height: normal;
+    letter-spacing: normal;
 }
 .layout{
   display: grid;
-  grid-template-columns: 275px auto 350px;
+  /* grid-template-columns: 275px auto 350px; */
+  grid-template-columns: 20% 50% 30%;
   margin: 0 auto;
+ font-family: "Times New Roman";
+ 
 
 }
-
+p{
+    font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    text-align: start;
+    letter-spacing: normal;
+    color: #e7e9ea;
+}
 .main{
   color:#eee;
   display: flex;
-  /* width: 100%; */
+  /* width: 100%;  */
   border-bottom: 1px solid;
   border-left: 1px solid;
+  border-right: 1px solid;
   margin-bottom: 2px;
   padding: 20px 25px;
  }
@@ -55,22 +68,33 @@ margin-right: 5px;
 }
 
 .tweet-at{
-color: beige;
+color: #71767b;
 font-size: 15px;
 opacity: 0.4;
 }
-
+/* 
 .tweet-date{
   margin left:
-}
+} */
 
-.tweet-content{
-
+.tweet-image{
+width: 100%;
 } 
 
 .tweet-icons{
-    
+    color: #000000;
+    align-items: space-between;
 }
+
+.more-one{
+    display: flex;
+    justify-content: space-between;
+}
+
+.show{
+   color: #f91880;
+}
+
 .right{
     position: fixed;
 }
