@@ -9,23 +9,38 @@ body{
     font-size:15px;
     line-height: normal;
     letter-spacing: normal;
+    font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Helvetica, Arial, sans-serif;
+    
+
 }
 .layout{
   display: grid;
-  /* grid-template-columns: 275px auto 350px; */
   grid-template-columns: 20% 50% 30%;
   margin: 0 auto;
- font-family: "Times New Roman";
+  font-family: "Times New Roman";
  
 
 }
-p{
+.box{
+    display: flex;
+}
+p, .tweet-content{
     font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     font-size: 15px;
     text-align: start;
     letter-spacing: normal;
     color: #e7e9ea;
 }
+h4{
+    font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: start;
+    font-weight: 300;
+}
+
+
 .main{
   color:#eee;
   display: flex;
@@ -56,6 +71,7 @@ p{
     height: 49px;
     border-radius: 50%;
     margin-right: 10px;
+    
 }
 
 
@@ -70,7 +86,7 @@ margin-right: 5px;
 .tweet-at{
 color: #71767b;
 font-size: 15px;
-opacity: 0.4;
+
 }
 /* 
 .tweet-date{
@@ -82,8 +98,22 @@ width: 100%;
 } 
 
 .tweet-icons{
-    color: #000000;
-    align-items: space-between;
+    color: #71767b;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    padding-top: 15px;
+      
+}
+.tweet-icons .reply:hover{
+   /* background: #ffffff; */
+   color: #1d9bf0;
+   /* opacity: 3%; */
+}
+.tweet-icons .retweet:hover{
+    color:#00ba7c;
+}
+.retweet{
+    padding-left: 15px;
 }
 
 .more-one{
@@ -93,29 +123,13 @@ width: 100%;
 
 .show{
    color: #f91880;
+   padding-top: 10px;
 }
-
+.second-sec{
+    display: flex;
+    padding-top: 20px;
+}
 .right{
     position: fixed;
 }
 /* tHE NEW  FOOTER */
-.footer{
-    margin-top: 15px;
-    margin-left: 15px;
-}
-.footer a{
-    text-decoration: none;
-    font-size: 14px;
-    color:rgb(113, 118, 123);
-    padding-right: 5px;
-       
-}
-
-.footer p{
-    font-size: 13px;
-    color:rgb(113, 118, 123);
-    margin-top: 3px;
-}
-.footer a:hover{
-    text-decoration: underline;
-}
