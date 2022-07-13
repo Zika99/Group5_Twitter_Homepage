@@ -590,9 +590,128 @@ a:hover + .div-rep{
   
 
 
-/* Nav bar Css */
+
+/* IDRIS CSS */
+
+.second-layout{
+  /* padding: 15px; */
+  border-bottom: 1px solid #888;
+  border-left: 1px solid #888;
+  border-right: 1px solid #888;
+}
+
+.picture{
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.Text{
+  cursor: pointer;
+}
+
+.tweet_H1{
+  display: flex;
+  /* align-items: center; */
+  /* flex-direction: row; */
+  justify-content: space-between;
+  /* margin-bottom: 0px; */
+  padding: 15px 15px 5px 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  /* position: fixed; */
+}
 
 
+.tweet_H2{
+  display: flex;
+  /* border: 3px dotted yellow; */
+  padding: 0px 15px 15px 15px;
+  
+  /* justify-content: space-around; */
+
+}
+.tweet_H3{
+  display: flex;
+  /* text-align: center; */
+  /* padding-left: 60px; */
+  padding: 5px 15px 15px 70px;
+  justify-content: space-between;
+  /* border: 1px solid #ccc; */
+
+}
+.Main_Button{
+  padding: 10px;
+  width: 85px;
+  /* padding-top: 5px; */
+  /* padding-right: 0px; */
+  float: right;
+  /* border-radius: 50%; */
+  cursor: pointer;
+  color: white;
+  border-radius: 20px;
+  background-color: #f91880;
+  /* border-bottom: 1px solid #ccc; */
+  font-weight: bolder;
+  font-size: 15px;
+  opacity: 0.5;
+  border: none;
+  outline: 0;
+}
+
+
+.Show_Tweet{
+  color: #f91880;
+  text-align: center;
+  border-top: 1px solid #888;
+  padding: 15px;
+  /* font: 10px; */
+  font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI",
+  Roboto, Helvetica, Arial, sans-serif;
+  /* font-weight: 500; */
+  /* font-stretch: 100px; */
+  /* overflow-wrap: break-word; */
+}
+
+.wh{
+  /* border: 3px dotted red; */
+  padding: 10px;
+
+}
+.wh__{
+  width: 600px;
+  height: 25px;
+  background-color: transparent;
+  border: none;
+  outline-style: none;
+  color: white;
+  font-size: 20px;
+  font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI",
+  Roboto, Helvetica, Arial, sans-serif;
+}
+.svg1{
+  padding: 6px;
+  display: inline-block;
+  cursor: pointer;
+}
+.wh > ::placeholder{
+  font-size: 20px;
+}
+._svg{
+  border-radius: 50%;
+ cursor: pointer;
+ /* background-color: #f1f1f1; */
+ padding: 7px;
+}
+.svg1:hover{
+  background-color: #2e0518;
+  border-radius: 70%;
+  /* opacity: 1; */
+}
+._svg:hover{
+  background-color:rgb(48, 47, 47);
+  /* color: white; */
+  border-radius: 50%;
+  opacity: 1;
+}  
 
 
 
