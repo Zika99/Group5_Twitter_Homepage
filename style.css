@@ -714,5 +714,167 @@ a:hover + .div-rep{
 }  
 
 
+/* Yelex's Sectio */
+.main-navbar{
+  margin-top: 15px;
+  font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI",
+  Roboto, Helvetica, Arial, sans-serif;
+  position:fixed;
+  /* top: 1px; */
+}
+
+.nav-wrapper{
+  width:9%;
+  margin-left: 22%;
+  filter: brightness(0) invert(1);
+  margin-bottom: 10px;
+}  
+
+.nav-wrapper{
+  cursor: pointer;
+}
+
+/* div p:hover{
+  display: block;
+} */
+
+.span-img{
+  margin-right: 20px;
+  text-align: start;
+  /* margin-left: 15%; */
+  width: 26px;
+  filter: brightness(0) invert(1);
+}
 
 
+div ul li{
+  list-style: none;
+}
+
+.span-a{
+  text-decoration: none;
+  color: #E7E9EA;
+  text-align: start;
+  font-size: 20px;
+}
+
+.span {
+  display: flex;
+  justify-content:start;
+  align-items: center;
+  cursor: pointer;
+  padding: 12px 0;
+  /* margin-right: 100px; */
+  margin-left: 20%;
+  padding-left: 10px;
+}
+
+.span:hover{
+  background-color: #181818;
+  border-radius: 20px;
+  /* margin-right: 50px; */
+}
+
+.span1{
+  margin-right: 70px;
+}
+
+#span2{
+  margin-right: 50px;
+}
+
+#span3{
+  margin-right: 5px;
+}
+
+#span4{
+  margin-right: 30px;
+}
+
+#span5{
+  margin-right: 20px;
+}
+
+#span6, #span8{
+  margin-right: 80px;
+}
+
+.span1-a{
+  font-weight: bold;
+}
+.nav-btn{
+  border: 1px solid #f91880;
+  padding: 15px 90px;
+  border-radius: 40px;
+  background-color: #f91880;
+  color: white;
+  margin-top: 10px;
+  margin-left: 18%;
+  font-size: 15px;
+  font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI",
+  Roboto, Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+}
+
+.nav-footer{
+  display: flex;
+  align-items:center;
+  color: #E7E9EA;
+  margin-bottom: 10px;
+  width: auto;
+  margin-left: 15%;
+  margin-right: 10px;
+  padding: 7px 0;
+  padding-left: 10px;
+  margin-top: 10px;
+  padding-right: 50px;
+}
+
+.p-img{
+  width: 50px;
+  margin-right: 10px;
+  filter: brightness(0) invert(1);
+}
+
+.nav-footer:hover{
+  background-color:#181818;
+  border-radius: 150px;
+  cursor: pointer;
+}
+
+.nav-footer-item{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+#nav-footer-item-p1{
+  font-weight: bolder;
+}
+
+#nav-footer-item-p2{
+  font-weight:100;
+}
+
+.nav-footer-btn{
+  background-color: black;
+  display: flex;
+  margin-left: 120px;
+}
+
+.btn{
+  width: 3px;
+  height:3px;
+  border-radius: 50%;
+  margin-right: 2px;
+}
+
+.btn1, .btn2, .btn3{
+  background-color: white;
+}
+
+.nav-footer-profile{
+  display: flex;
+  flex-direction: column;
+}
