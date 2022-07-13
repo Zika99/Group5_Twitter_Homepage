@@ -290,4 +290,315 @@ a:hover + .div-rep{
 .right{
     position: fixed;
 }
-/* tHE NEW  FOOTER */
+/* Tomi CSS */
+
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+  
+  
+  body{
+    background-color: black;
+    /* color: white; */
+  }
+  
+  .main-div{
+     display: grid;
+     /* grid-template-columns: 275px auto 350px;*/
+     grid-template-columns: 23% 44% 33%;
+  }
+  
+  
+  .first-container{
+    /* background-color: #657786; */
+  }
+  
+  .second-container{
+    /* background-color: chartreuse; */
+  }
+  
+  
+  .third-container{
+    /* width: 350px; */
+  /* border: 5px red dotted; */
+  border: 0 solid black;
+  background-color: #000000;
+  /* background-color: red; */
+  /* margin-right: 10px; */
+  font-size: 15px;
+  /* min-height: 1497px; */
+  position: relative;
+  /* height: 100%; */
+  /* height: 950.5px; */
+  padding-top: 12px;
+  padding-bottom: 12px;
+   /* position: sticky; */
+  }
+  
+   
+  
+   /* input[type=text]{
+     width: 80%; 
+     line-height: 20px; 
+     display: flex; 
+     font-size: 15px; 
+     font-weight: 400; 
+     border: none; 
+      background: transparent;  
+      color: rgb(231, 233, 234);  
+      padding:12px;  
+      background-color: black;     
+   }   */
+  
+  
+  /* .search-container{
+     width: 350px;  
+     margin:  auto;  
+     margin-bottom: 10px;
+    min-height: 32px;
+    height: 53px;
+    background: rgb(32, 35, 39); 
+    border-radius: 25px;
+    border: none;
+     position: fixed;  
+      position: sticky; 
+      z-index: 2;  
+     align-items: center;`
+    display: flex;
+    flex-direction: row;
+  }  */
+  
+  
+  .search-container{
+    width: 350px;
+    margin-left: 35px;
+  display: flex;
+  flex-direction: row;
+  background-color: #16181c;
+  border-bottom-color:   rgb(118, 118, 118);
+    border-right-color:  rgb(118, 118, 118);
+    border-top-color:  rgb(118, 118, 118);
+    border-left-color:  rgb(118, 118, 118);
+    border-radius: 15px;
+  /* border: 1px dotted yellow; */
+  }
+  
+  
+  .search-container:active{
+    border: 2px solid blue;
+  }
+  
+  
+  .form-input{
+    font-size: 15px;
+    background-color: #16181c;
+    color: white;
+    /* background-color: blue; */
+    width: 355px;
+    margin-left: 5px;
+    padding: 12px;
+    font-weight: 400;
+    border: none;
+    /* width: 350px; */
+    margin-right: 20px;
+    appearance: none;
+    outline-style: none;
+    /* border: 2px yellow dotted; */
+    /* width: 350px; */
+    /* background: red; */
+    /* margin-bottom: 10px; */
+    /* border: none; */
+    /* padding: 25px; */
+    /* text-align: left; */
+  } 
+  
+  
+  .search-img{
+    /* color:rgb(113, 118, 123); */
+    color: yellow;
+    margin-left: 20px;
+  }
+  
+  
+  
+  
+  
+  .trends-for-you-page{
+    /* border: 2px dotted yellow; */
+    width: 350px;
+    border-radius: 15px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+  
+    margin-left: 35px;
+    height: 900px;
+    /* margin-right: 10px; */
+    /* margin: 12px; */
+    background-color: #16181c;
+    margin-right: 20px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  .trends-for-you--block{
+    border: 0 solid black;
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px dotted yellow; */
+    /* background-color: red; */
+    line-height: 20px;
+    
+  }
+  
+  
+  .trends-for-you--block:hover{
+    cursor: pointer;
+    /* background: rgb(85, 80, 80); */
+    background:  #1D1F23;
+    /* opacity: 0.5; */
+  
+  }
+  
+  
+  
+  
+  
+  .trends-for-you--blok{
+    border: 0 solid black;
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px dotted yellow; */
+    /* background-color: red; */
+    line-height: 20px;
+    margin-top: 10px;
+    margin-bottom: 7px;
+    
+  }
+  
+  
+  
+  .trends-for-you-heading{
+    font-size: 20px;
+    font-weight: 800;
+    color: #e7e9ea;
+    line-height: 24px;
+    font-family: inherit;
+    /* border: 1px dotted yellow; */
+    
+    /* padding-top: 12px;
+    padding-left: 16px;
+    padding-right:16px ;
+    padding-bottom:12px ; */
+  
+  
+  }
+  
+  .trends-for-you-meta-information{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #657786;
+    /* color: #43464b; */
+    /* color: #5c6065; */
+    /* color: rgb(231, 233, 234); */
+    
+    font: inherit;
+    
+    /* border: 5px dotted yellow; */
+    /* margin: 20px; */
+  
+  }
+  
+  .trends-for-you-trends-name{
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 20px;
+    /* border: 1px dotted yellow; */
+    /* color: #e2e4e5; */
+    color:  rgb(231, 233, 234);
+    /* font-family: inherit; */
+    font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, He;
+    /* margin-bottom: 5px; */
+    /* margin-top: 2px; */
+  
+  }
+  
+  
+  
+  
+  a{
+    text-decoration: none;
+    
+  }
+  
+  
+   .show-more-div{
+    /* border: 1px dotted yellow; */
+    /* padding: 10px; */
+    margin-top: 10px;
+  
+  }
+  
+  
+  .show-more-text{
+    color: #1d9bf0;
+    line-height: 20px;
+  }
+  
+  
+  
+  .div-p{
+    display: none;
+    color: white;
+    background-color: #71767B;
+    padding: top 3px; 
+    padding-bottom: 3px;
+    padding-left: 3px;
+    padding-right: 3px;
+    font-size: 13px;
+    position: fixed;
+    border-radius: 3px;
+    align-self: center;
+  }
+  
+  a:hover + .div-p{
+  display:block;
+  position: absolute;
+  
+  }
+  
+  a:hover{
+    /* color: red; */
+    /* background: red; */
+    box-shadow: #1d9bf0;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
