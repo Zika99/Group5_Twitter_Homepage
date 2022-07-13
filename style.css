@@ -199,7 +199,7 @@ a:hover + .div-rep{
     padding:20px;
    }
  .dp:hover + .card-container {
-    display: block;
+    /* display: block; */
     /* z-index: 1; */
  } 
 .main-profile{
@@ -287,9 +287,8 @@ a:hover + .div-rep{
 .bio-info{
     color: #e7e9ea;
 }
-.right{
-    position: fixed;
-}
+
+
 /* Tomi CSS */
 
 
@@ -307,13 +306,13 @@ a:hover + .div-rep{
     background-color: black;
     /* color: white; */
   }
-  
+/*   
   .main-div{
      display: grid;
      /* grid-template-columns: 275px auto 350px;*/
-     grid-template-columns: 23% 44% 33%;
-  }
-  
+     /* grid-template-columns: 23% 44% 33%;
+  } */
+   */
   
   .first-container{
     /* background-color: #657786; */
@@ -493,9 +492,7 @@ a:hover + .div-rep{
     
   }
   
-  
-  
-  .trends-for-you-heading{
+   .trends-for-you-heading{
     font-size: 20px;
     font-weight: 800;
     color: #e7e9ea;
@@ -580,8 +577,8 @@ a:hover + .div-rep{
   }
   
   a:hover + .div-p{
-  display:block;
-  position: absolute;
+  /* display:block;
+  position: absolute; */
   
   }
   
@@ -593,9 +590,7 @@ a:hover + .div-rep{
   
 
 
-
-
-
+/* Nav bar Css */
 
 
 
