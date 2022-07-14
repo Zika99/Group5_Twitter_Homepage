@@ -577,8 +577,8 @@ a:hover + .div-rep{
   }
   
   a:hover + .div-p{
-  /* display:block;
-  position: absolute; */
+   display:block;
+   position: absolute; 
   
   }
   
