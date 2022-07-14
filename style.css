@@ -162,7 +162,7 @@ a:hover + .div-rep{
 } 
 .more-one{
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     padding-top: 10px;
 }
 
