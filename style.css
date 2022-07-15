@@ -75,9 +75,9 @@ h4{
     margin-right: 10px;
     
 }
-.second-sec{
+.second-sec:hover{
     /* padding-top: -50px; */
-    
+    /* background: rgb(43, 42, 42); */
     
 }
 
@@ -135,26 +135,42 @@ a:hover + .div-rep{
     display: block;
 }
 
-.reply:hover{
-    fill: #1DA1F2;
-      /* border-radius: 2.5em; */
-      color: blue;
-      /* padding: 1em 2em; */
-      text-decoration: none;
-  
+.reply:hover .svg-icon{
+  filter: invert(72%) sepia(54%) saturate(6995%) hue-rotate(179deg) brightness(98%) contrast(92%);
+}
+.reply:hover .blue{
+   color: #1d9bf0;
 }
 
-.share:hover{
-    background-color: #1DA1F2;
-    border-radius: 50%;
+.like:hover .svg-icon 
+  { filter: invert(22%) sepia(95%) saturate(3571%) hue-rotate(319deg) brightness(97%) contrast(101%); }
+    
+.like:hover .pink {
+     color: #f91880;
+   }
+
+.retweet:hover .svg-icon{
+  filter: invert(65%) sepia(96%) saturate(3892%) hue-rotate(125deg) brightness(94%) contrast(101%);
+} 
+.retweet:hover .green{
+    color:#00ba7c;
 }
+  
+.share:hover .svg-icon{
+  filter: invert(72%) sepia(54%) saturate(6995%) hue-rotate(179deg) brightness(98%) contrast(92%); 
+}
+
+.share:hover .blue{
+  color: #1d9bf0; 
+
+}
+
+
 .retweet, .like, .share{
     display: flex;
     justify-content: space-between;
 }
-.tweet-icons .retweet:hover{
-    color:#00ba7c;
-}
+
 
 .hannah{
     display: flex;  
@@ -168,40 +184,71 @@ a:hover + .div-rep{
 
 .show{
    color: #f91880;
-   padding-top: 10px;
+   padding-top: 13px;
 }
 .second-sec{
     display: flex;
-    padding-bottom: 15px;
+    padding-bottom: 12px;
     
 }
 
-.num{
-    padding-left: 20px;
+.pink, .green, .blue{
+    padding-left: 15px;
     text-decoration: none;
 }
 
 
 /* Style for the profile card */
 
+/* 
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0; */
+
+  /* Position the tooltip */
+  /* position: absolute;
+  z-index: 1;
+} */
+/* 
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+} */
+
+
+
 .card-container{
-    height: 100vh;
+    height: 54vh;
+    width: 30%;
+    background-color: #000000;
     display:flex;
+    position: absolute;
     justify-content: center;
     align-items: center;
-    display: none;
-    /* z-index: 1; */
+    display: none; 
+    z-index: 1;
    }
 
 .card{
     box-shadow: 1px 1px 10px 1px #71767b;
     border-radius: 10px;
-    padding:20px;
-   }
- .dp:hover + .card-container {
-    /* display: block; */
-    /* z-index: 1; */
- } 
+    padding:20px; 
+    
+   } 
+ .tee:hover .card-container{
+    /* visibility: visible; */
+    display:block;
+ }
 .main-profile{
     display: flex;
     justify-content: space-between;
@@ -224,20 +271,21 @@ a:hover + .div-rep{
 
 .follow-btn button{
     font-size: 1.5rem;
-    border: 3px solid #e7e9ea;
+    /* border: 3px solid #e7e9ea; */
     border-radius: 25px;
-    background-color: rgba(29, 161, 242, 0);
+    background-color: #e7e9ea;
     padding: 8px 15px;
     margin: 5px;
     font-weight: medium;
-    color: #e7e9ea;
+    font-size: 15px;
+    color: black;
     cursor: pointer;
     outline: none;
-    transition: all 0.2s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
 .follow-btn button:hover{
-   background-color: rgba(29, 161, 242, 0.2); 
+   background-color: #d6d9db;
 }
 
 .user-bio{
@@ -342,37 +390,6 @@ a:hover + .div-rep{
   
    
   
-   /* input[type=text]{
-     width: 80%; 
-     line-height: 20px; 
-     display: flex; 
-     font-size: 15px; 
-     font-weight: 400; 
-     border: none; 
-      background: transparent;  
-      color: rgb(231, 233, 234);  
-      padding:12px;  
-      background-color: black;     
-   }   */
-  
-  
-  /* .search-container{
-     width: 350px;  
-     margin:  auto;  
-     margin-bottom: 10px;
-    min-height: 32px;
-    height: 53px;
-    background: rgb(32, 35, 39); 
-    border-radius: 25px;
-    border: none;
-     position: fixed;  
-      position: sticky; 
-      z-index: 2;  
-     align-items: center;`
-    display: flex;
-    flex-direction: row;
-  }  */
-  
   
   .search-container{
     width: 350px;
@@ -469,8 +486,9 @@ a:hover + .div-rep{
   
   .trends-for-you--block:hover{
     cursor: pointer;
+    
     /* background: rgb(85, 80, 80); */
-    background:  #1D1F23;
+    background:  #1D1F23; 
     /* opacity: 0.5; */
   
   }
@@ -559,8 +577,15 @@ a:hover + .div-rep{
     color: #1d9bf0;
     line-height: 20px;
   }
-  
-  
+  .img-p:hover{
+    /* color:#10486b; */
+    border-radius: 50%;
+     background-color: #16181c
+    /* opacity: 0.6;  */
+  }
+  .img-p .more-color:hover{
+    filter: invert(72%) sepia(54%) saturate(6995%) hue-rotate(179deg) brightness(98%) contrast(92%);
+  }
   
   .div-p{
     display: none;
@@ -581,12 +606,12 @@ a:hover + .div-rep{
    position: absolute; 
   
   }
-  
+ 
   a:hover{
     /* color: red; */
-    /* background: red; */
+     /* background: red;  */
     box-shadow: #1d9bf0;
-  }
+  } 
   
 
 
@@ -618,6 +643,8 @@ a:hover + .div-rep{
   padding: 15px 15px 5px 15px;
   font-family: Arial, Helvetica, sans-serif;
   /* position: fixed; */
+  z-index: 1;
+  top: 2;
 }
 
 
@@ -880,4 +907,113 @@ div ul li{
 .nav-footer-profile{
   display: flex;
   flex-direction: column;
+}
+/* winnie */
+a {
+  text-decoration: none;
+}
+/* .home {
+  display: grid;
+  grid-template-columns: 23% 44% 33%;
+  margin: 0 auto;
+} */
+.sixth a {
+  color: rgb(91, 95, 100);
+}
+.follow {
+  background-color: rgb(22, 24, 28);
+  padding: 15px 15px 10px 15px;
+  margin: 0px 90px -1px 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.follow1 {
+  display: flex;
+}
+.who {
+  background-color: rgb(22, 24, 28);
+  margin: 10px 90px -1px 30px;
+  padding: 10px 0px 10px 15px;
+  border-radius: 1em 1em 0 0;
+}
+.more {
+  background-color: rgb(22, 24, 28);
+  margin: 0px 90px 0px 30px;
+  padding: 15px 0px 20px 15px;
+  border-radius: 0 0 1em 1em;
+}
+.follow:hover,
+.more:hover {
+background-color: #1D1F23;
+}
+
+.links1, .links2, .links3{
+  display: block;
+  padding-left: 10px;
+}
+.msgs {
+  font-size: 20px;
+  font-weight: bolder;
+  padding: 10px 20px 8px 15px;
+  border: 1px solid rgb(91, 95, 100);
+  width: 368px;
+  position: fixed;
+  right: 20px;
+  bottom: 0px;
+  border-radius: 20px 20px 0 0;
+  display: inline-flex;
+  justify-content: space-between;
+  box-shadow: 0 0 10px;
+}
+.profilepic {
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+  object-position: left;
+}
+.follow-button {
+  padding: 0px;
+  border-radius: 20px;
+  font-weight: bolder;
+  width: 80px;
+  height: 30px;
+  border: none;
+}
+.follow-button:hover {
+  background-color: #d7dbdc;
+}
+.footer-link {
+  margin: 0 120px 0 40px;
+}
+.footer-links {
+  font-size: 13px;
+  padding: 4px;
+}
+.footer-links:hover{
+  text-decoration: underline;
+}
+.copyright {
+  color: rgb(91, 95, 100);
+  /* line-height:0; */
+  font-size: 13px;
+}
+.last-a,.last-b{
+width: 55px;
+padding: 4px;
+width:20px;
+}
+.last-a:hover, .last-b:hover {
+background-color: rgb(91, 95, 100);
+border-radius: 50%;
+}
+.new, .new1 {
+display: none;
+color:white ;
+font-size: smaller;
+padding: 5px;
+
+}
+.last-a:hover + .new {
+background-color: rgb(91, 95, 100);
+display: block;
 }
