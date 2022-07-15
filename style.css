@@ -776,27 +776,27 @@ div ul li{
 }
 
 .span1{
-  margin-right: 70px;
+  margin-right: 95px;
 }
 
 #span2{
-  margin-right: 50px;
+  margin-right: 85px;
 }
 
 #span3{
-  margin-right: 5px;
+  margin-right: 45px;
 }
 
 #span4{
-  margin-right: 30px;
+  margin-right: 70px;
 }
 
 #span5{
-  margin-right: 20px;
+  margin-right: 60px;
 }
 
 #span6, #span8{
-  margin-right: 80px;
+  margin-right: 100px;
 }
 
 .span1-a{
@@ -863,7 +863,7 @@ div ul li{
 .nav-footer-btn{
   background-color: black;
   display: flex;
-  margin-left: 120px;
+  margin-left: 140px;
 }
 
 .btn{
