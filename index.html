@@ -15,11 +15,13 @@
 </head>
 
 <body>
-
+  <p class="body-p-img">
+    <img src="images/logo46x38@2x.png" alt="twitter logo" id="twitter-logo" class="twitter-logo"/>
+  </p>
   <!-- This is a homepage layout  -->
 
   <!-- Daniel's Section -->
-
+  <div class="stop-load" id="pause">
   <div class="layout">
     <!-- This is the left-bar -->
     <div class="left">
@@ -1058,6 +1060,20 @@
 
     </div>
   </div>
+  </div>
+
+  <script>
+    var hidden = false;
+  
+    setInterval(function() {
+      document.getElementById("twitter-logo").style.visibility = "hidden";
+    }, 500)
+    
+    setTimeout( () => {
+      document.querySelector('.stop-load').style.display = 'block'
+    }, 500)
+  
+  </script>
   
 </body>
 

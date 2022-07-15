@@ -1017,3 +1017,13 @@ padding: 5px;
 background-color: rgb(91, 95, 100);
 display: block;
 }
+
+.stop-load{
+  display: none;
+}
+
+.twitter-logo{
+  position:absolute;
+  margin-top: 20%;
+  margin-left: 50%;
+}
