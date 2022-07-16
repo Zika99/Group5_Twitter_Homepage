@@ -595,7 +595,7 @@ a:hover + .mor-txt{
   
   
   .show-more-text{
-    color: #1d9bf0;
+    color: #f91880;
     line-height: 20px;
   }
   .img-p:hover{
@@ -711,6 +711,7 @@ a:hover + .mor-txt{
   text-align: center;
   border-top: 1px solid #888;
   padding: 15px;
+  margin-top: 40px;
   /* font: 10px; */
   font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI",
   Roboto, Helvetica, Arial, sans-serif;
@@ -1063,7 +1064,21 @@ footer{
    .tweet_H3{
     display: none;
    }
+   .second-layout{
+    border-left: none;
+    border-right: none;
+   }
+   header{
+    display:block;
+    position: fixed;
+    width: 100%;
+    background-color: #000;
+    fill: #eeeeee;
+    top: 0;
+   }
+   
    .gen-head{
+    
     display: flex;
     justify-content: space-between;
    }
@@ -1080,6 +1095,8 @@ footer{
     align-items: center;
    }
    .twi{
+    /* position: relative; 
+    right: 500; */
     margin-right: 12px;
     margin-top: 12px;
    }
@@ -1112,7 +1129,10 @@ footer{
    line-height: 20px;
    overflow-wrap: breakword;
    }
-   
+  .footer-ul{
+    border-top: 1px solid #888;
+     background-color: #000000; 
+  } 
  
 .first-container{
   border-left: 0px;
@@ -1125,26 +1145,50 @@ footer{
 }
  
 .feather{
-  /* display:block;
-  border-radius: 50%; */
+  background-color: #f91880;
+  /* filter:brightness(0) invert(1); */
+   display:block;
+  border-radius: 80%; 
+  width: 10%;
+  position: relative;
+   left:500px;
+  /* align-items: center; */
+  margin-top: 12px;
+  margin-bottom: 12px;
+  /* height: 50%; */
+
+   padding:20px; 
+  /* z-index: 1; */
+  /* width: 10%; */
+
+
+  /* padding: 20px; */
   /* height: 10%;
   width: 10%; */
 }
+ .fea{
+  display: flex;
+     justify-content: center;
+  
+} 
 
 footer{
-  border-top: 1px solid #888;
+  display: block;
+  /* border-top: 1px solid #888; */
   position: fixed; 
    bottom: 0;
    width: 100%;
-   background-color: #000000;
+   /* background-color: #000000; */
 }
 
 ul{
   margin-left: 50px;
   margin-right: 50px;
+
    display: flex;
   align-items: center;
   justify-content: space-between;
+  /* background-color: #000000;  */
   /* position: fixed;
   bottom: 0; */
   /* width: 100%;
@@ -1180,6 +1224,11 @@ ul{
     display:none;
    }
    
-
+  .who{
+    display: none;
+  }
+  .follow-box{
+    display: none;
+  }
   }
 
