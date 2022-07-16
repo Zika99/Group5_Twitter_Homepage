@@ -1016,4 +1016,433 @@ padding: 5px;
 .last-a:hover + .new {
 background-color: rgb(91, 95, 100);
 display: block;
+<<<<<<< HEAD
 }
+=======
+}
+<<<<<<< HEAD
+.feather{
+  display: none;
+}
+footer{
+  display: none;
+}
+<<<<<<< HEAD
+=======
+
+.stop-load{
+  display: none;
+}
+
+.twitter-logo{
+  position:absolute;
+  margin-top: 20%;
+  margin-left: 50%;
+}
+
+
+>>>>>>> 746c14ce07ca93ed3fb9564993b612d0dd3ec73a
+/* CSS for mobile responsiveness */
+
+@media (max-width:768px) {
+  /* Yelex and Daniel */
+   
+   /* #span2,  #span5, #span6, #span8, #profile, .nav-btn, .nav-footer, .work, .twitter{ */
+    .left{
+      display:none;
+     }
+     .span-a, #home{
+      display: none;
+     }
+  /* Idris part */
+    .tweet_H1{
+      display: none;
+    }
+     .tweet_H3{
+      display: none;
+     }
+     .second-layout{
+      border-left: none;
+      border-right: none;
+     }
+     header{
+      display:block;
+      position: fixed;
+      width: 100%;
+      background-color: #000;
+      fill: #eeeeee;
+      top: 0;
+     }
+     
+     .gen-head{
+      
+      display: flex;
+      justify-content: space-between;
+     }
+     .resp-head{
+      display: flex;
+      margin-left: 12px;
+      margin-top: 12px;
+     }
+     .resp-home{
+      font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-size: 1.15em;;
+      font-weight: bold;
+      padding-left: 15px;
+      align-items: center;
+     }
+     .twi{
+      /* position: relative; 
+      right: 500; */
+      margin-right: 12px;
+      margin-top: 12px;
+     }
+     .mr{
+      border-radius: 50%;
+      cursor: pointer;
+     }
+  
+     .wh{
+      display: none;
+     }
+  
+     .Profile_Pic{
+       display: none;
+      
+     }
+  /* Ngozi's part */
+     .layout{
+      display: flex;
+      grid-template-columns:none;
+      margin: 0 auto;
+       width:100%;   
+         /* padding-right: 16px;  */
+      /* padding-left: 16px; */
+      overflow: hidden;
+     }
+     p, h4, .tweet-content {
+     font-weight: 400;
+     font-size: 15px;
+     line-height: 20px;
+     overflow-wrap: breakword;
+     }
+    .footer-ul{
+      border-top: 1px solid #888;
+       background-color: #000000; 
+    } 
+   
+  .first-container{
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 1px solid #888;;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-bottom: -1px;
+    padding-top:12px;
+  }
+   
+  .feather{
+    background-color: #f91880;
+    /* filter:brightness(0) invert(1); */
+     display:block;
+    border-radius: 70%; 
+    width: 10%;
+    position: relative;
+     left:700px;
+    /* align-items: center; */
+    margin-top: 12px;
+    margin-bottom: 12px;
+    /* height: 50%; */
+  
+     padding:20px; 
+    /* z-index: 1; */
+    /* width: 10%; */
+  
+  
+    /* padding: 20px; */
+    /* height: 10%;
+    width: 10%; */
+  }
+   .fea{
+    display: flex;
+       justify-content: center;
+    
+  } 
+  
+  footer{
+    display: block;
+    /* border-top: 1px solid #888; */
+    position: fixed; 
+     bottom: 0;
+     width: 100%;
+     /* background-color: #000000; */
+  }
+  
+  ul{
+    margin-left: 50px;
+    margin-right: 50px;
+  
+     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: #000000;  */
+    /* position: fixed;
+    bottom: 0; */
+    /* width: 100%;
+    height: 100%; */
+  }
+  #home, #Notification, #message, #thick-search{
+  
+    display:block;
+    width: 50%;
+    height: 50%;
+    filter:brightness(0) invert(1);
+  }
+  
+  /* For Tomi's part */
+    .main-div{
+      display:none;
+    }
+  
+  /* Winnie's part */
+     .who{
+      display:none;
+     }
+     .more-win{
+      display:none;
+     }
+     .follow{
+      display: none;
+     }
+     .sixth{
+      display:none;
+     }
+     .msgs{
+      display:none;
+     }
+     
+    .who{
+      display: none;
+    }
+    .follow-box{
+      display: none;
+    }
+    .Show_Tweet{
+      margin: 0 70px;
+      
+      border-top: 1px solid #888;
+     /* border-left: 1px solid #888;
+     border-right: 1px solid #888; */
+    }
+
+  .first-container{
+    /* margin: 0 auto; */
+    margin: 0 70px;
+    border-left: 1px solid #888;
+    border-right: 1px solid #888;
+  }
+
+    }
+
+
+@media (max-width:600px) {
+  /* Yelex and Daniel */
+   
+   /* #span2,  #span5, #span6, #span8, #profile, .nav-btn, .nav-footer, .work, .twitter{ */
+    .left{
+    display:none;
+   }
+   .span-a, #home{
+    display: none;
+   }
+/* Idris part */
+  .tweet_H1{
+    display: none;
+  }
+   .tweet_H3{
+    display: none;
+   }
+   .second-layout{
+    border-left: none;
+    border-right: none;
+   }
+   header{
+    display:block;
+    position: fixed;
+    width: 100%;
+    background-color: #000;
+    fill: #eeeeee;
+    top: 0;
+   }
+   
+   .gen-head{
+    
+    display: flex;
+    justify-content: space-between;
+   }
+   .resp-head{
+    display: flex;
+    margin-left: 12px;
+    margin-top: 12px;
+   }
+   .resp-home{
+    font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 1.15em;;
+    font-weight: bold;
+    padding-left: 15px;
+    align-items: center;
+   }
+   .twi{
+    /* position: relative; 
+    right: 500; */
+    margin-right: 12px;
+    margin-top: 12px;
+   }
+   .mr{
+    border-radius: 50%;
+    cursor: pointer;
+   }
+
+   .wh{
+    display: none;
+   }
+
+   .Profile_Pic{
+     display: none;
+    
+   }
+/* Ngozi's part */
+   .layout{
+    display: flex;
+    grid-template-columns:none;
+    margin: 0 auto;
+     width:100%;   
+       /* padding-right: 16px;  */
+    /* padding-left: 16px; */
+    overflow: hidden;
+   }
+   p, h4, .tweet-content {
+   font-weight: 400;
+   font-size: 15px;
+   line-height: 20px;
+   overflow-wrap: breakword;
+   }
+  .footer-ul{
+    border-top: 1px solid #888;
+     background-color: #000000; 
+  } 
+ 
+.first-container{
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom: 1px solid #888;;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-bottom: -1px;
+  padding-top:12px;
+}
+ 
+.feather{
+  background-color: #f91880;
+  /* filter:brightness(0) invert(1); */
+   display:block;
+  border-radius: 80%; 
+  width: 10%;
+  position: relative;
+   left:500px;
+  /* align-items: center; */
+  margin-top: 12px;
+  margin-bottom: 12px;
+  /* height: 50%; */
+
+   padding:20px; 
+  /* z-index: 1; */
+  /* width: 10%; */
+
+
+  /* padding: 20px; */
+  /* height: 10%;
+  width: 10%; */
+}
+ .fea{
+  display: flex;
+     justify-content: center;
+  
+} 
+
+footer{
+  display: block;
+  /* border-top: 1px solid #888; */
+  position: fixed; 
+   bottom: 0;
+   width: 100%;
+   /* background-color: #000000; */
+}
+
+ul{
+  margin-left: 50px;
+  margin-right: 50px;
+
+   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* background-color: #000000;  */
+  /* position: fixed;
+  bottom: 0; */
+  /* width: 100%;
+  height: 100%; */
+}
+#home, #Notification, #message, #thick-search{
+
+  display:block;
+  width: 50%;
+  height: 50%;
+  filter:brightness(0) invert(1);
+}
+
+/* For Tomi's part */
+  .main-div{
+    display:none;
+  }
+
+/* Winnie's part */
+   .who{
+    display:none;
+   }
+   .more-win{
+    display:none;
+   }
+   .follow{
+    display: none;
+   }
+   .sixth{
+    display:none;
+   }
+   .msgs{
+    display:none;
+   }
+   
+  .who{
+    display: none;
+  }
+  .follow-box{
+    display: none;
+  }
+  }
+
+=======
+
+<<<<<<< HEAD
+.stop-load{
+  display: none;
+}
+
+.twitter-logo{
+  position:absolute;
+  margin-top: 20%;
+  margin-left: 50%;
+}
+=======
+>>>>>>> 746c14ce07ca93ed3fb9564993b612d0dd3ec73a
+>>>>>>> nav
+>>>>>>> b8bbb6232a110688bf91d5eb166486fc19ef064a
