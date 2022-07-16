@@ -15,9 +15,14 @@ body{
     overflow-y: scroll;
     overscroll-behavior-y: none;
 
-    
 
 }
+
+
+header{
+  display: none;
+ } 
+
 .layout{
   display: grid;
   grid-template-columns: 23% 44% 33%;
@@ -48,9 +53,9 @@ h4{
     padding-left: 16px;
     padding-right: 16px;
     margin-bottom: -1px;
-    border-bottom: 1px solid #e7e9ea;
-    border-left: 1px solid #e7e9ea;
-    border-right: 1px solid #e7e9ea; 
+    border-bottom: 1px solid #888;
+    border-left: 1px solid #888;
+    border-right: 1px solid #888;
     
     
 }     
@@ -69,8 +74,8 @@ h4{
 }
 .sec-dp{
     size: 20px;
-    width: 49px;
-    height: 49px;
+    width: 38px;
+    height: 38px;
     border-radius: 50%;
     margin-right: 10px;
     
@@ -98,6 +103,51 @@ color: #71767b;
 font-size: 15px;
 
 }
+.tweet-time{
+  color: #71767b;
+font-size: 15px;
+/* top: -5px;
+left: 105%; */
+}
+
+.user-all{
+  display: flex;
+}
+.tweet-time:hover{
+   border-radius: 50%;
+  
+}
+.tweet-time:hover{
+  text-decoration: underline;
+  /* align-items: flex-end; */
+  
+}
+
+.date{
+  display: none;
+  color: white;
+  background-color: #71767B;
+  padding: top 3px; 
+  padding-bottom: 3px;
+  padding-left: 3px;
+  padding-right: 3px;
+  font-size: 13px;
+  /* position: fixed; */
+  border-radius: 3px;
+  /* top: -5px;
+  left: 105%; */
+  /* align-self: center; */
+}
+
+p:hover + .date{
+ display:block;
+ position: absolute; 
+ top: -5px;
+ left: 105%;
+ text-align: center;
+
+}
+
 
 
 .tweet-image{
@@ -134,6 +184,40 @@ width: 100%;
 a:hover + .div-rep{
     display: block;
 }
+
+.main-mor:hover{
+  /* color:#10486b; */
+  border-radius: 50%;
+   background-color: #16181c
+  /* opacity: 0.6;  */
+}
+.main-mor .more:hover{
+  filter: invert(72%) sepia(54%) saturate(6995%) hue-rotate(179deg) brightness(98%) contrast(92%);
+}
+
+.mor-txt{
+  display: none;
+  color: white;
+  background-color: #71767B;
+  padding: top 3px; 
+  padding-bottom: 3px;
+  padding-left: 3px;
+  padding-right: 3px;
+  font-size: 13px;
+  position: fixed;
+  border-radius: 3px;
+  align-self: center;
+}
+
+a:hover + .mor-txt{
+ display:block;
+ position: absolute; 
+
+}
+
+
+
+
 
 .reply:hover .svg-icon{
   filter: invert(72%) sepia(54%) saturate(6995%) hue-rotate(179deg) brightness(98%) contrast(92%);
@@ -199,33 +283,6 @@ a:hover + .div-rep{
 
 
 /* Style for the profile card */
-
-/* 
-.tooltip {
-  position: relative;
-  display: inline-block;
-  border-bottom: 1px dotted black;
-}
-
-.tooltip .tooltiptext {
-  visibility: hidden;
-  width: 120px;
-  background-color: black;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 5px 0; */
-
-  /* Position the tooltip */
-  /* position: absolute;
-  z-index: 1;
-} */
-/* 
-.tooltip:hover .tooltiptext {
-  visibility: visible;
-} */
-
-
 
 .card-container{
     height: 54vh;
@@ -354,41 +411,19 @@ a:hover + .div-rep{
     background-color: black;
     /* color: white; */
   }
-/*   
-  .main-div{
-     display: grid;
-     /* grid-template-columns: 275px auto 350px;*/
-     /* grid-template-columns: 23% 44% 33%;
-  } */
-   */
-  
-  .first-container{
-    /* background-color: #657786; */
-  }
-  
-  .second-container{
-    /* background-color: chartreuse; */
-  }
-  
+
   
   .third-container{
-    /* width: 350px; */
-  /* border: 5px red dotted; */
+   
   border: 0 solid black;
   background-color: #000000;
-  /* background-color: red; */
-  /* margin-right: 10px; */
-  font-size: 15px;
+    font-size: 15px;
   /* min-height: 1497px; */
   position: relative;
-  /* height: 100%; */
-  /* height: 950.5px; */
-  padding-top: 12px;
+    padding-top: 12px;
   padding-bottom: 12px;
    /* position: sticky; */
   }
-  
-   
   
   
   .search-container{
@@ -425,13 +460,7 @@ a:hover + .div-rep{
     margin-right: 20px;
     appearance: none;
     outline-style: none;
-    /* border: 2px yellow dotted; */
-    /* width: 350px; */
-    /* background: red; */
-    /* margin-bottom: 10px; */
-    /* border: none; */
-    /* padding: 25px; */
-    /* text-align: left; */
+    
   } 
   
   
@@ -459,14 +488,6 @@ a:hover + .div-rep{
     background-color: #16181c;
     margin-right: 20px;
   }
-  
-  
-  
-  
-  
-  
-  
-  
   
   
   
@@ -935,15 +956,16 @@ a {
   margin: 10px 90px -1px 30px;
   padding: 10px 0px 10px 15px;
   border-radius: 1em 1em 0 0;
+  width: 355px;
 }
-.more {
+.more-win {
   background-color: rgb(22, 24, 28);
   margin: 0px 90px 0px 30px;
   padding: 15px 0px 20px 15px;
   border-radius: 0 0 1em 1em;
 }
 .follow:hover,
-.more:hover {
+.more-win:hover {
 background-color: #1D1F23;
 }
 
@@ -954,6 +976,7 @@ background-color: #1D1F23;
 .msgs {
   font-size: 20px;
   font-weight: bolder;
+  background-color: #000000;
   padding: 10px 20px 8px 15px;
   border: 1px solid rgb(91, 95, 100);
   width: 368px;
@@ -998,22 +1021,165 @@ background-color: #1D1F23;
   font-size: 13px;
 }
 .last-a,.last-b{
-width: 55px;
+/* width: 55px; */
 padding: 4px;
-width:20px;
+width:25px;
 }
 .last-a:hover, .last-b:hover {
 background-color: rgb(91, 95, 100);
 border-radius: 50%;
 }
-.new, .new1 {
-display: none;
-color:white ;
-font-size: smaller;
-padding: 5px;
 
+.follow-box{
+  width: 475px;
 }
+
 .last-a:hover + .new {
 background-color: rgb(91, 95, 100);
 display: block;
 }
+.feather{
+  display: none;
+}
+footer{
+  display: none;
+}
+/* CSS for mobile responsiveness */
+
+@media (max-width:600px) {
+  /* Yelex and Daniel */
+   
+   /* #span2,  #span5, #span6, #span8, #profile, .nav-btn, .nav-footer, .work, .twitter{ */
+    .left{
+    display:none;
+   }
+   .span-a, #home{
+    display: none;
+   }
+/* Idris part */
+  .tweet_H1{
+    display: none;
+  }
+   .tweet_H3{
+    display: none;
+   }
+   .gen-head{
+    display: flex;
+    justify-content: space-between;
+   }
+   .resp-head{
+    display: flex;
+    margin-left: 12px;
+    margin-top: 12px;
+   }
+   .resp-home{
+    font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 1.15em;;
+    font-weight: bold;
+    padding-left: 15px;
+    align-items: center;
+   }
+   .twi{
+    margin-right: 12px;
+    margin-top: 12px;
+   }
+   .mr{
+    border-radius: 50%;
+    cursor: pointer;
+   }
+
+   .wh{
+    display: none;
+   }
+
+   .Profile_Pic{
+     display: none;
+    
+   }
+/* Ngozi's part */
+   .layout{
+    display: flex;
+    grid-template-columns:none;
+    margin: 0 auto;
+     width:100%;   
+       /* padding-right: 16px;  */
+    /* padding-left: 16px; */
+    overflow: hidden;
+   }
+   p, h4, .tweet-content {
+   font-weight: 400;
+   font-size: 15px;
+   line-height: 20px;
+   overflow-wrap: breakword;
+   }
+   
+ 
+.first-container{
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom: 1px solid #888;;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-bottom: -1px;
+  padding-top:12px;
+}
+ 
+.feather{
+  /* display:block;
+  border-radius: 50%; */
+  /* height: 10%;
+  width: 10%; */
+}
+
+footer{
+  border-top: 1px solid #888;
+  position: fixed; 
+   bottom: 0;
+   width: 100%;
+   background-color: #000000;
+}
+
+ul{
+  margin-left: 50px;
+  margin-right: 50px;
+   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* position: fixed;
+  bottom: 0; */
+  /* width: 100%;
+  height: 100%; */
+}
+#home, #Notification, #message, #thick-search{
+
+  display:block;
+  width: 50%;
+  height: 50%;
+  filter:brightness(0) invert(1);
+}
+
+/* For Tomi's part */
+  .main-div{
+    display:none;
+  }
+
+/* Winnie's part */
+   .who{
+    display:none;
+   }
+   .more-win{
+    display:none;
+   }
+   .follow{
+    display: none;
+   }
+   .sixth{
+    display:none;
+   }
+   .msgs{
+    display:none;
+   }
+   
+
+  }
+
