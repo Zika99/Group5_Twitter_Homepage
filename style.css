@@ -354,21 +354,7 @@ a:hover + .div-rep{
     background-color: black;
     /* color: white; */
   }
-/*   
-  .main-div{
-     display: grid;
-     /* grid-template-columns: 275px auto 350px;*/
-     /* grid-template-columns: 23% 44% 33%;
-  } */
-   */
-  
-  .first-container{
-    /* background-color: #657786; */
-  }
-  
-  .second-container{
-    /* background-color: chartreuse; */
-  }
+
   
   
   .third-container{
@@ -1027,8 +1013,6 @@ display: block;
 footer{
   display: none;
 }
-<<<<<<< HEAD
-=======
 
 .stop-load{
   display: none;
@@ -1040,8 +1024,6 @@ footer{
   margin-left: 50%;
 }
 
-
->>>>>>> 746c14ce07ca93ed3fb9564993b612d0dd3ec73a
 /* CSS for mobile responsiveness */
 
 @media (max-width:768px) {
@@ -1429,20 +1411,3 @@ ul{
     display: none;
   }
   }
-
-=======
-
-<<<<<<< HEAD
-.stop-load{
-  display: none;
-}
-
-.twitter-logo{
-  position:absolute;
-  margin-top: 20%;
-  margin-left: 50%;
-}
-=======
->>>>>>> 746c14ce07ca93ed3fb9564993b612d0dd3ec73a
->>>>>>> nav
->>>>>>> b8bbb6232a110688bf91d5eb166486fc19ef064a
