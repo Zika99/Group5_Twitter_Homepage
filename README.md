@@ -4,8 +4,8 @@
 This is a clone of a Twitter Home done by team members of Group 5.
 
 Here are the names of the contributors to this project:
-1.Ngozi(Team lead)- worked on the second part of the main.
-2.Daniel- worked on the second part of the leftbar
+1.Ngozi(Team lead)
+2.Daniel
 3.Romataka
 4.Oluwatomi
 5. Winnie
