@@ -908,3 +908,112 @@ div ul li{
   display: flex;
   flex-direction: column;
 }
+/* winnie */
+a {
+  text-decoration: none;
+}
+/* .home {
+  display: grid;
+  grid-template-columns: 23% 44% 33%;
+  margin: 0 auto;
+} */
+.sixth a {
+  color: rgb(91, 95, 100);
+}
+.follow {
+  background-color: rgb(22, 24, 28);
+  padding: 15px 15px 10px 15px;
+  margin: 0px 90px -1px 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.follow1 {
+  display: flex;
+}
+.who {
+  background-color: rgb(22, 24, 28);
+  margin: 10px 90px -1px 30px;
+  padding: 10px 0px 10px 15px;
+  border-radius: 1em 1em 0 0;
+}
+.more {
+  background-color: rgb(22, 24, 28);
+  margin: 0px 90px 0px 30px;
+  padding: 15px 0px 20px 15px;
+  border-radius: 0 0 1em 1em;
+}
+.follow:hover,
+.more:hover {
+background-color: #1D1F23;
+}
+
+.links1, .links2, .links3{
+  display: block;
+  padding-left: 10px;
+}
+.msgs {
+  font-size: 20px;
+  font-weight: bolder;
+  padding: 10px 20px 8px 15px;
+  border: 1px solid rgb(91, 95, 100);
+  width: 368px;
+  position: fixed;
+  right: 20px;
+  bottom: 0px;
+  border-radius: 20px 20px 0 0;
+  display: inline-flex;
+  justify-content: space-between;
+  box-shadow: 0 0 10px;
+}
+.profilepic {
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+  object-position: left;
+}
+.follow-button {
+  padding: 0px;
+  border-radius: 20px;
+  font-weight: bolder;
+  width: 80px;
+  height: 30px;
+  border: none;
+}
+.follow-button:hover {
+  background-color: #d7dbdc;
+}
+.footer-link {
+  margin: 0 120px 0 40px;
+}
+.footer-links {
+  font-size: 13px;
+  padding: 4px;
+}
+.footer-links:hover{
+  text-decoration: underline;
+}
+.copyright {
+  color: rgb(91, 95, 100);
+  /* line-height:0; */
+  font-size: 13px;
+}
+.last-a,.last-b{
+width: 55px;
+padding: 4px;
+width:20px;
+}
+.last-a:hover, .last-b:hover {
+background-color: rgb(91, 95, 100);
+border-radius: 50%;
+}
+.new, .new1 {
+display: none;
+color:white ;
+font-size: smaller;
+padding: 5px;
+
+}
+.last-a:hover + .new {
+background-color: rgb(91, 95, 100);
+display: block;
+}
