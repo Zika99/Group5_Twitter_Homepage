@@ -1038,6 +1038,7 @@ border-radius: 50%;
 background-color: rgb(91, 95, 100);
 display: block;
 }
+<<<<<<< HEAD
 .feather{
   display: none;
 }
@@ -1183,3 +1184,15 @@ ul{
 
   }
 
+=======
+
+.stop-load{
+  display: none;
+}
+
+.twitter-logo{
+  position:absolute;
+  margin-top: 20%;
+  margin-left: 50%;
+}
+>>>>>>> nav
